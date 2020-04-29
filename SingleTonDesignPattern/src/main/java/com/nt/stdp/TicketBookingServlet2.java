@@ -1,6 +1,6 @@
 package com.nt.stdp;
 
-public class TicketBookingServlet implements Runnable {
+public class TicketBookingServlet2 implements Runnable {
 
 	@Override
 	public void run() {

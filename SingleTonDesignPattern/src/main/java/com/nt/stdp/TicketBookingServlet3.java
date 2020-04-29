@@ -1,11 +1,11 @@
 package com.nt.stdp;
 
-public class TicketBookingServlet implements Runnable {
+public class TicketBookingServlet3 implements Runnable {
 
 	@Override
 	public void run() {
-		Printer2 p=null;
-		p=Printer2.getInstance();
+		Printer3 p=null;
+		p=Printer3.getInstance();
 		System.out.println(p.hashCode()+"----->"+Thread.currentThread().getName());
 
 	}

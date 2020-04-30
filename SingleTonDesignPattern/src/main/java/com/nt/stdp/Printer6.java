@@ -12,10 +12,10 @@ public class Printer6 extends CommonsUtil{
 
 //static factory method
 	public static Printer6 getInstance() {
-		if (INSTANCE == null) {
+		if (INSTANCE == null) {//1st null check
 			synchronized (Printer6.class) {
 
-				if (INSTANCE == null) {
+				if (INSTANCE == null) {//2nd null check
 					INSTANCE = new Printer6();// Lazy Instantiation (Good Code)
 				}
 			}
